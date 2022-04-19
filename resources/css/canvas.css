@@ -1,0 +1,698 @@
+.canvas_background {
+    z-index: 1;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    position: absolute;
+    background-color: black;
+}
+
+.canvas_char_1 {
+    z-index: 2;
+    width: auto;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_char_2 {
+    z-index: 3;
+    width: auto;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_char_3 {
+    z-index: 4;
+    width: auto;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_char_4 {
+    z-index: 5;
+    width: auto;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_dialogBar {
+    z-index: 6;
+    width: auto;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_nameplate {
+    z-index: 7;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_dialog {
+    z-index: 7;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    position: absolute;
+}
+
+.canvas_click {
+    z-index: 8;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    position: absolute;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.m-top-5 {
+    margin-top: 5px;
+}
+
+.m-btm-5 {
+    margin-bottom: 5px;
+}
+
+.wh-inherit {
+    width: inherit;
+    height: inherit;
+}
+
+.scroll-y-hide {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+.z-index-20 {
+    z-index: 20;
+}
+
+.menu-container{
+    width: 400px; 
+    height: inherit; 
+    background-color: #A9A9A9;
+    flex-shrink: 0;
+}
+
+form{
+    margin:0;
+    padding:0;
+}
+
+/* CSS */
+.btn-ran-1 {
+    width: 200px;
+}
+
+.btn-num-1 {
+    width: 75px;
+}
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: inherit;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0 0.5em 0;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 28px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    width: 100px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/* CSS */
+.button-24 {
+    background: #5C4033;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    min-width: 300px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #5C4033;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+.sel_btn_24 {
+    background-color: initial;
+    background-position: 0 0;
+    color: #5C4033;
+}
+
+.b30-ver-side-lr {
+    width: 50px; 
+    height: 250px;
+    writing-mode: sideways-lr;
+    -ms-writing-mode: sideways-rl; 
+}
+
+.gg-chevron-left-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 4px
+}
+.gg-chevron-left-r::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-bottom: 8px solid;
+    border-left: 8px solid;
+    transform: rotate(45deg);
+    left: 15px;
+    top: 10px;
+}
+
+.gg-chevron-right-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 4px
+}
+.gg-chevron-right-r::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-bottom: 8px solid;
+    border-left: 8px solid;
+    transform: rotate(-135deg);
+    left: 6px;
+    top: 10px;
+}
+
+.logBox {
+    position: relative;
+    width: 500px; 
+    height: 720px; 
+    background-color: #85929e; 
+    align-self: center;
+    z-index: 20; 
+    border-radius: 25px;
+}
+
+.font-cont-1{
+    width: 100px;
+}
+
+.font-cont-2{
+    width: 50px;
+}
+
+.caption-0{
+    font-family: Lucida Console; 
+    font-size: 18px;
+}
+
+.caption-1{
+    font-family: Lucida Console; 
+    font-size: 15px;
+}
+
+/* script label */
+.script-code-container {
+    margin: 10px 0 0 10px; 
+    align-items: center;
+}
+
+.script-code-label {
+    display:flex;
+    align-items:center;
+    width: 150px; 
+    height: 30px; 
+    margin-left: 10px; 
+    border-radius: 25px 0 0 25px;
+}
+
+.script-code-label:hover {
+    opacity: 0.7;
+}
+
+.bg-label-color {
+    background-color: #F08080; 
+}
+
+.line-label-color {
+    background-color: #fff000;
+}
+
+.char-1-label-color {
+    background-color: #3498db; 
+}
+
+.char-2-label-color {
+    background-color: #5dade2; 
+}
+
+.char-3-label-color {
+    background-color: #48c9b0; 
+}
+
+.char-4-label-color {
+    background-color: #52be80; 
+}
+
+.audio-label-color {
+    background-color: #CD7F32;
+}
+
+.effect-label-color {
+    background-color: #ff6ffb;
+}
+
+.script-code-title {
+    margin-left: 10px;
+}
+
+.script-code-select-bar {
+    display:flex;
+    align-items: center; 
+    width: 250px;
+    height: 30px;  
+    background-color: #fbfcfc;     
+}
+
+.script-code-bar {
+    display:flex;
+    align-items: center;
+    width: 250px;
+    height: 30px;  
+    background-color:  #ffbb6f ; 
+}
+
+.script-code-select-bar-opt {
+    margin: 0 0 0 10px;
+}
+
+.script-code-x-btn-container {
+    display:flex;
+    align-items: center; 
+    justify-content: center;  
+    width: 50px; 
+    height: 30px; 
+    background-color: #424949 ; 
+    border-radius: 0 25px 25px 0;
+}
+
+.cross{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cross::before,
+.cross::after {
+    content: '';
+    position: absolute;
+    top: (20px - 1px) / 2;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: red;
+    border-radius: 1px;
+}
+
+.cross::before {
+    transform: rotate(45deg);
+  }
+
+.cross::after {
+    transform: rotate(-45deg);
+}
+
+/* Fill Button */
+.btn-fill-1 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-1::after {
+    content: "";
+    background-color: #3498db;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-1:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-2 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-2::after {
+    content: "";
+    background-color: #5dade2;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-2:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-3 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-3::after {
+    content: "";
+    background-color: #48c9b0;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-3:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-4 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-4::after {
+    content: "";
+    background-color: #52be80;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-4:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-5 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-5::after {
+    content: "";
+    background-color: #F08080;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-5:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-6 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-6::after {
+    content: "";
+    background-color: #fff000;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-6:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-7 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-7::after {
+    content: "";
+    background-color: #ff6ffb;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-7:hover::after {
+    top: 0px;
+    left: 0px;
+}
+
+.btn-fill-8 {
+    font-size: 15px;
+    font-weight: 10;
+    letter-spacing: 1px;
+    padding: 3.25px 12.5px 3.25px;
+    width: 170px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-fill-8::after {
+    content: "";
+    background-color: #CD7F32;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+.btn-fill-8:hover::after {
+    top: 0px;
+    left: 0px;
+}
